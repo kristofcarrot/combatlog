@@ -1,17 +1,7 @@
 module.exports = {
     init(req, res) {
-        let db = {
-            userName: [
-                'Ilya',
-                'Kostya',
-                'Some',
-                'Foo'
-            ]
-        };
 
-        res.render('index', {
-            userName: db.userName
-        });
+        res.render('index');
     },
 
     // POST /

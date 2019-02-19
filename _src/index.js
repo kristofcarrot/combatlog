@@ -21,5 +21,5 @@ app.use(mainRouter);
 app.use('/auth', authRouter);
 
 app.listen(config.port, function() {
-    console.log(`Слушаем порт 3000`);
+    console.log(`Слушаем порт ` + config.port);
 });

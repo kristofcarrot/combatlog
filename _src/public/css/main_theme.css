@@ -1,0 +1,10 @@
+.main_page_bg {
+    background-image: url("/img/mainpage_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.vh-100 {
+    height: 100vh;
+}
